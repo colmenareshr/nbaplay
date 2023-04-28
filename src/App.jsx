@@ -1,14 +1,12 @@
 import { GlobalStyle } from './components/UI/Global';
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
-      <Footer />
+      <HomePage />
     </>
   );
 }
